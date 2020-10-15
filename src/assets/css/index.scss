@@ -1,0 +1,41 @@
+.header{
+    background-color: #FF4B00;
+    .ant-page-header-heading-title{
+        color: white;
+       
+    }  
+    .btn-download{
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        width: 80px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 40px;
+        font-weight: 700;
+        color: #FF4B00;
+        font-style: 20px;
+    }
+}
+.navBar{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DDD;
+    background-color: #fff;
+    a{
+        flex: 1;
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #333333;
+        &.active{
+            border-bottom: 2px solid #FF4B00;
+        }
+    }
+}

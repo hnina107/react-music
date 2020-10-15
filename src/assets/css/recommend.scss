@@ -1,0 +1,21 @@
+.recommnd{
+    .ant-carousel{
+        img{
+            width: 100%;
+        }
+    }
+   .songMenu{
+       padding: 10px;
+       h3{
+           height: 40px;
+           line-height: 40px;
+           border-left: 3px solid #FF4B00;
+           padding-left: 10px;
+           font-weight: 700;
+       }
+   }
+}
+
+.slick-dots {
+    z-index: 1 !important;
+}
